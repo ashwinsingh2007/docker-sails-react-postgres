@@ -12,8 +12,6 @@ class RegisterPage extends Component {
   }
   onHandleRegistration = (event) => {
     event.preventDefault();
-    debugger
-
     let firstName = event.target.firstName.value;
     let lastName = event.target.lastName.value;
     let gender = event.target.female.checked ? 2 : 1
